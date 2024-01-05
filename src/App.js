@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
+import Navbar from './components/Navbar';
+import SideBar from './components/SideBar';
 
 function App() {
   return (
-    <div className="App text-cyan-700 text-center text-3xl font-bold">
-      <h1>Helloooo</h1>
+    <div className="App">
+      <Navbar />
       <Home />
     </div>
   );
